@@ -1,0 +1,4 @@
+interface:
+  display_name: "食光小卡"
+  short_description: "首次建档后只发图即可，自动识别中餐并查参照，记录热量与下一餐建议"
+  default_prompt: "请用 $food-photo-card 首次了解我的基础资料；之后只凭食物照片自动识别、查营养参照和估量，不追问菜名克数，更新每日摄入并生成小卡片。"

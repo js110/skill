@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>@@TITLE@@ · 食光小卡</title>
+<style>
+:root{--forest:#245946;--ink:#183d30;--muted:#526b60;--lemon:#ffdb72;--paper:#fffef9;--line:#dce6df;--page:#e9f1ec}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;line-height:1.65;padding:36px 18px}main{max-width:490px;margin:auto}.card{background:var(--paper);border-radius:28px;overflow:hidden;box-shadow:0 18px 60px #204a3512}.brand{display:flex;align-items:center;justify-content:space-between;padding:22px 28px 12px}.brand strong{font-size:18px;letter-spacing:1px}.stamp{font-size:11px;background:var(--lemon);color:var(--ink);padding:3px 10px;border-radius:16px}.hero{position:relative;margin:0 16px;background:#dcebd9;border-radius:18px;overflow:hidden;height:188px}.hero img{width:100%;height:100%;object-fit:cover}.hero svg{height:100%;width:100%;display:block}.hero-label{position:absolute;bottom:10px;left:12px;background:#fffef9ed;font-size:11px;border-radius:20px;padding:3px 11px}.content{padding:20px 28px 25px}h1{font-size:23px;margin:0;font-weight:700;line-height:1.4}.portion{font-size:12px;color:var(--muted);margin:5px 0 16px}.energy{display:flex;align-items:center;justify-content:space-between;gap:16px}.number{font-family:Georgia,"Times New Roman",serif;font-size:66px;line-height:1;letter-spacing:-3px}.approx{font-family:"Microsoft YaHei",sans-serif;font-size:15px;letter-spacing:0;margin-right:5px}.unit{font-size:12px;margin-left:7px;letter-spacing:0}.confidence{text-align:right;font-size:11px;color:var(--muted);max-width:116px}.confidence span{display:block}.range{margin:9px 0 0;font-size:13px}.range strong{font-weight:600}.range-note{font-size:11px;color:var(--muted);margin:2px 0 15px}.composition{display:flex;height:7px;border-radius:6px;overflow:hidden;margin-bottom:15px}.composition i{height:100%;min-width:0}.breakdown{list-style:none;margin:0;padding:0}.breakdown li{display:grid;grid-template-columns:9px 1fr auto;gap:9px;align-items:start;margin:11px 0}.dot{width:7px;height:7px;border-radius:50%;margin-top:8px}.food-name{font-size:13px}.portion-small{font-size:11px;color:var(--muted);display:block;line-height:1.45}.food-kcal{font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums}.food-kcal small{font-size:10px;color:var(--muted)}.message{position:relative;background:#edf4e9;border-radius:15px;padding:15px 17px;margin:20px 0 13px}.message h2{font-size:11px;font-weight:400;margin:0 0 4px;color:var(--muted)}.message p{font-size:16px;line-height:1.6;margin:0;font-weight:600}.tip{font-size:12px;margin:0 0 17px;line-height:1.8}.tip strong{background:var(--lemon);border-radius:5px;padding:2px 5px;font-size:10px;margin-right:6px}.assumptions{font-size:11px;line-height:1.8;color:var(--muted);padding-top:13px;border-top:1px dashed #b9cdbf}.assumptions p{margin:0 0 5px}details{font-size:11px;color:var(--muted);margin-top:9px}summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}summary:focus-visible,a:focus-visible{outline:2px solid var(--forest);outline-offset:4px}details ul{padding-left:17px;margin:8px 0}a{color:var(--forest);overflow-wrap:anywhere}.fineprint{font-size:10px;line-height:1.7;color:var(--muted);margin:12px 0 0}.outside{text-align:center;font-size:11px;color:var(--muted);margin:15px 0 0}.demo-note{font-weight:600;color:var(--ink)}
+.evidence-label{font-size:10px;background:#edf4e9;border-radius:6px;padding:4px 8px;display:inline-block;margin:0 0 12px;color:var(--forest)}
+.hero.has-photo{height:220px;background:#dce6df}.hero.has-photo img{object-fit:contain}.message p{white-space:pre-line}
+.daily{background:#f5f6e9;border:1px solid #e1e6ce;border-radius:15px;margin-top:20px;padding:15px}.daily h2{font-size:12px;font-weight:600;margin:0 0 10px}.daily h2 small{float:right;font-weight:400}.daily-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.daily-grid span{font-size:10px;display:block;color:var(--muted)}.daily-grid b{font:30px Georgia,serif;display:block;line-height:1.4;overflow-wrap:anywhere}.daily-track{height:6px;background:#dfe5ce;border-radius:8px;overflow:hidden;margin:11px 0}.daily-track i{display:block;height:100%;background:var(--forest)}.daily-note{font-size:10px;line-height:1.8;color:var(--muted);margin:7px 0 0}.daily-status{font-size:11px;line-height:1.8;margin:8px 0 0}.daily details{font-size:10px}
+@media(max-width:380px){body{padding:16px 10px}.brand{padding:19px 20px 12px}.content{padding:18px 20px 22px}.hero{height:166px}.number{font-size:57px}.confidence{max-width:90px}.energy{gap:8px}}
+@media print{body{background:white;padding:0}.card{box-shadow:none;border:1px solid var(--line);break-inside:avoid}main{max-width:490px}.outside{display:none}details{display:block}}
+</style>
+</head>
+<body><main><article class="card" aria-label="餐食热量估算卡">
+<header class="brand"><strong>食光小卡 <span aria-hidden="true">✳</span></strong><span class="stamp">@@BADGE@@</span></header>
+<div class="hero @@PHOTO_CLASS@@">@@HERO@@<span class="hero-label">@@HERO_LABEL@@</span></div>
+<div class="content"><h1>@@TITLE@@</h1><p class="portion">@@PORTION@@</p>
+<div class="energy"><div class="number"><span class="approx">约</span>@@TOTAL@@<span class="unit">大卡</span></div><div class="confidence">@@CONFIDENCE@@<span>照片估算，有些留白</span></div></div>
+<p class="range">估算范围 <strong>@@LOW@@–@@HIGH@@ kcal</strong></p><p class="range-note">范围反映份量与做法差异，非统计置信区间</p>@@EVIDENCE@@
+<div class="composition" aria-hidden="true">@@BARS@@</div><ul class="breakdown" aria-label="食物热量拆分">@@ITEMS@@</ul>
+@@DAILY@@
+<section class="message"><h2>给这一餐的一句话</h2><p>@@COMMENT@@</p></section>
+<p class="tip"><strong>小建议</strong>@@TIP@@</p>
+<div class="assumptions"><p>@@ASSUMPTIONS@@</p></div>
+<details><summary>查看估算依据</summary>@@BASIS@@</details>
+<p class="fineprint">@@DEMO_NOTE@@热量为摄入能量估算，不等于体重变化。显示值已取整，分项相加可能有微小差异。1 大卡 = 1 kcal。</p>
+</div></article><p class="outside">好好吃饭，也给估算留一点余地。</p></main></body></html>

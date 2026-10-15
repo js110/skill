@@ -1,0 +1,181 @@
+{
+  "description": "少量核对过的参考条目；不是完整中国食物库，不代表照片份量已知。其余食物使用在线查询或显式经验估算。",
+  "records": [
+    {
+      "id": "cfs-10400200012",
+      "food_name": "Steamed rice-flour roll (豬腸粉)",
+      "kcal_per_100g": 110.0,
+      "source": {
+        "label": "香港食物安全中心：Steamed rice-flour roll (豬腸粉)；代码 10400200012",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "The Food Research Laboratory of the Centre for Food Safety (FRL)",
+        "food_id": "10400200012",
+        "group": "40",
+        "subgroup": "02",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "53a455f95f7e4a51f0c10d6c7ad5054b3ddbc7a13b828adc1bca09cb1de29301"
+      }
+    },
+    {
+      "id": "cfs-070606F007055",
+      "food_name": "Pork, mince, as purchased, fried, no added fat(免治豬肉(炒，無添加脂肪))",
+      "kcal_per_100g": 202.0,
+      "source": {
+        "label": "香港食物安全中心：Pork, mince, as purchased, fried, no added fat(免治豬肉(炒，無添加脂肪))；代码 070606F007055",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "© Food Standards Australia New Zealand",
+        "food_id": "070606F007055",
+        "group": "06",
+        "subgroup": "06",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "07b9a0ae810ffe9ed0ce5d36e75ffd6d4f8a50c802c412aaa6ab8b017cb02c27"
+      }
+    },
+    {
+      "id": "cfs-070609F005043",
+      "food_name": "Lamb, loin chop, untrimmed, grilled, no added fat(羊仔腰肉塊(未經削切，烤，無添加脂肪))",
+      "kcal_per_100g": 275.0,
+      "source": {
+        "label": "香港食物安全中心：Lamb, loin chop, untrimmed, grilled, no added fat(羊仔腰肉塊(未經削切，烤，無添加脂肪))；代码 070609F005043",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "© Food Standards Australia New Zealand",
+        "food_id": "070609F005043",
+        "group": "06",
+        "subgroup": "09",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "53801d4fe2590b352c9b065c9adfe5616f0e1499ba5384c7a3070e83a795ba82"
+      }
+    },
+    {
+      "id": "cfs-070609F004884",
+      "food_name": "Lamb, chop, with bone, forequarter, lean, grilled, no added fat(羊仔前1/4部分肉塊(帶骨，瘦肉，烤，無添加脂肪))",
+      "kcal_per_100g": 214.0,
+      "source": {
+        "label": "香港食物安全中心：Lamb, chop, with bone, forequarter, lean, grilled, no added fat(羊仔前1/4部分肉塊(帶骨，瘦肉，烤，無添加脂肪))；代码 070609F004884",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "© Food Standards Australia New Zealand",
+        "food_id": "070609F004884",
+        "group": "06",
+        "subgroup": "09",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "428423d5e8c2b1f6eb6ae87e174193d32cd05762057fb3940710a1b2ecaa2dd9"
+      }
+    },
+    {
+      "id": "cfs-10030200103",
+      "food_name": "Boiled headed lettuce(白灼生菜)",
+      "kcal_per_100g": 24.0,
+      "source": {
+        "label": "香港食物安全中心：Boiled headed lettuce(白灼生菜)；代码 10030200103",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "The Food Research Laboratory of the Centre for Food Safety (FRL)",
+        "food_id": "10030200103",
+        "group": "03",
+        "subgroup": "02",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "41c488fb69c753361f8cb8245ca46fa4782ed3489a98085f78a9541201138176"
+      }
+    },
+    {
+      "id": "cfs-071500F006156",
+      "food_name": "Oil, blend of polyunsaturated vegetable oils(多元不飽和混合菜油)",
+      "kcal_per_100g": 881.0,
+      "source": {
+        "label": "香港食物安全中心：Oil, blend of polyunsaturated vegetable oils(多元不飽和混合菜油)；代码 071500F006156",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "© Food Standards Australia New Zealand",
+        "food_id": "071500F006156",
+        "group": "15",
+        "subgroup": "00",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "3c7e36ccc178dd3cc144acc8bc9844f2eec68c339f0696ad19cefa11da5f4248"
+      }
+    },
+    {
+      "id": "cfs-070100F007661",
+      "food_name": "Rice, white, boiled or rice cooker, no added salt(白飯(煮，無添加鹽))",
+      "kcal_per_100g": 155.0,
+      "source": {
+        "label": "香港食物安全中心：Rice, white, boiled or rice cooker, no added salt(白飯(煮，無添加鹽))；代码 070100F007661",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "© Food Standards Australia New Zealand",
+        "food_id": "070100F007661",
+        "group": "01",
+        "subgroup": "00",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "404596c650937d9e0fde406f21306e668f4470a8266f66731d4f5c24e813b028"
+      }
+    },
+    {
+      "id": "cfs-0521000913060",
+      "food_name": "Chicken soup broth, cooked in clay pot(瓦罐雞湯(湯))",
+      "kcal_per_100g": 27.0,
+      "source": {
+        "label": "香港食物安全中心：Chicken soup broth, cooked in clay pot(瓦罐雞湯(湯))；代码 0521000913060",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "The Institute of Nutrition and Food Safety, Chinese Center for Disease Control and Prevention (CFC2002Ed2)",
+        "food_id": "0521000913060",
+        "group": "21",
+        "subgroup": "00",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "41b3d7b56bf179da5f9f766db9ad3cd15aae0784a30d7320fac4a526a0a80315"
+      }
+    },
+    {
+      "id": "cfs-10400600826",
+      "food_name": "Braised bean curd and minced pork in chilli sauce(麻婆豆腐)",
+      "kcal_per_100g": 130.0,
+      "source": {
+        "label": "香港食物安全中心：Braised bean curd and minced pork in chilli sauce(麻婆豆腐)；代码 10400600826",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "The Food Research Laboratory of the Centre for Food Safety (FRL)",
+        "food_id": "10400600826",
+        "group": "40",
+        "subgroup": "06",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "5d4743c0eecade4aadd5d7893bdeafa9f0e7015d7b3c1da54ec9208098d61cb4"
+      }
+    },
+    {
+      "id": "cfs-0501081423010",
+      "food_name": "Crispy pancake, with lard, baked(板油酥餅)",
+      "kcal_per_100g": 360.0,
+      "source": {
+        "label": "香港食物安全中心：Crispy pancake, with lard, baked(板油酥餅)；代码 0501081423010",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "The Institute of Nutrition and Food Safety, Chinese Center for Disease Control and Prevention (CFC2002Ed2)",
+        "food_id": "0501081423010",
+        "group": "01",
+        "subgroup": "08",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "3edc6c63d17ecafb03389931d7d645a8a6c10c0e68143f76c35880ec93eef568"
+      }
+    },
+    {
+      "id": "cfs-0502000315010",
+      "food_name": "Soybean curd sheet, thin strip, semisoft(豆腐絲)",
+      "kcal_per_100g": 203.0,
+      "source": {
+        "label": "香港食物安全中心：Soybean curd sheet, thin strip, semisoft(豆腐絲)；代码 0502000315010",
+        "url": "https://www.cfs.gov.hk/english/nutrient/fc-search3.php",
+        "provider": "The Institute of Nutrition and Food Safety, Chinese Center for Disease Control and Prevention (CFC2002Ed2)",
+        "food_id": "0502000315010",
+        "group": "02",
+        "subgroup": "00",
+        "retrieved_on": "2026-10-15",
+        "retrieval": "public form POST; per 100g edible portion",
+        "response_sha256": "5c1f893ccf729dfb9c92c594397397e5ea949f933bcdee24b5b28d9402e8d942"
+      }
+    }
+  ]
+}
