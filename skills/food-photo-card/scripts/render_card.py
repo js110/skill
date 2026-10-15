@@ -101,8 +101,12 @@ def daily_html(daily):
         if not values['low'] <= values['kcal'] <= values['high'] or (not allow_negative and values['low'] < 0):
             raise ValueError(f'{label} has invalid bounds')
     check_values(consumed, 'consumed')
+    review = daily.get('review', {})
+    context = ''
+    if review.get('profile_reviewed_on'):
+        context = f'<p class="daily-note">个人资料复核于 {esc(review["profile_reviewed_on"])}；参考随有效记录更新。</p>'
     if target is None:
-        return f'<section class="daily"><h2>{esc(daily["date"])} · 今日记录</h2><p>已记录约 <b>{rounded(consumed["kcal"])}</b> kcal</p><p class="daily-note">{esc(daily["status"])}</p></section>'
+        return f'<section class="daily"><h2>{esc(daily["date"])} · 今日记录</h2><p>已记录约 <b>{rounded(consumed["kcal"])}</b> kcal</p><p class="daily-note">{esc(daily["status"])}</p>{context}</section>'
     check_values(target, 'target')
     remaining = daily.get('remaining')
     check_values(remaining, 'remaining', allow_negative=True)
@@ -117,7 +121,7 @@ def daily_html(daily):
 <div class="daily-track" role="img" aria-label="已记录摄入约为参考中心值的 {ratio:.0f}%"><i style="width:{min(100, max(0, ratio)):.4f}%"></i></div>
 <p class="daily-note">参考范围 {rounded(target['low'])}–{rounded(target['high'])}；已记录范围 {rounded(consumed['low'])}–{rounded(consumed['high'])}。<br>剩余参照范围 {rounded(remaining['low'])}–{rounded(remaining['high'])} kcal。</p>
 <p class="daily-status">{esc(daily['status'])}</p><p class="daily-note">参照值不是停食或必须吃满的指令，按饥饿感正常进餐。</p>
-<details><summary>每日参考怎么算</summary><p>{esc(target.get('method', '个人参考'))}：{esc(target.get('basis', ''))}</p></details></section>'''
+{context}<details><summary>每日参考怎么算</summary><p>{esc(target.get('method', '个人参考'))}：{esc(target.get('basis', ''))}</p></details></section>'''
 
 def render(data, photo=None, daily=None):
     validate(data)

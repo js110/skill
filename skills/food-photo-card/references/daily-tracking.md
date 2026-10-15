@@ -61,3 +61,5 @@ python /skill/scripts/daily_log.py --state /chat/work/food-photo-card-state.json
 - `status` 同时说明是否完整、是否有暂估；即使显示中心差额，也不能把单点当作确定是否超出。
 
 用 `render_card.py meal.json --output card.html --daily-json daily-summary.json --photo food.jpg` 生成带每日进度的卡片。分享内容只使用摘要，不把状态文件嵌入 HTML。建议由助手根据完整的餐次内容、忌口和下一餐情境撰写，脚本不会仅按余额大小机械推荐食物。
+
+持续使用时还应读取 [profile-updates.md](profile-updates.md)：新版状态支持带生效日期的档案版本、称重记录和趋势、资料复核、健康暂停与旧版迁移。新的每日需求读取对应日期的体重和活动量；不能永远沿用首次档案。
